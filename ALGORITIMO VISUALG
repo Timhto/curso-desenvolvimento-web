@@ -1,0 +1,28 @@
+algoritmo "missão 01"
+var
+    n: inteiro
+    contador : inteiro
+    soma : inteiro
+    divisor: inteiro
+    conferir: inteiro
+inicio
+       escreva("Digite um número:  ")
+       leia(n)
+           para contador de n ate 2 passo -1  faca
+           conferir <- 0
+           para divisor de contador ate 1 passo -1 faca
+           se contador mod divisor = 0 entao
+           conferir <- conferir +1
+       fimse
+       
+       fimpara
+       
+         se conferir = 2 entao
+       escreval("o numero", contador, " é primo")
+           soma <- soma + contador
+         
+         fimse
+         fimpara
+       escreval("a soma de todos os numeros primos <=",n, " é:", soma)
+   
+fimalgoritmo
